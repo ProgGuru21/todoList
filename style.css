@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+body,html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: rgb(41, 41, 41);
+}
+#task{
+    font-size: 17px;
+    outline: none;
+    border: none;
+    padding: 5px;
+    background: #008000;
+    
+
+    color: white;
+}
+#task::placeholder{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    font-style: italic;
+    
+
+}
+#submit{
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 2px solid #008000;
+    color: #008000;
+}
+.field{
+    margin: 0px auto;
+    width: fit-content;
+    margin-top: 50px;
+}
+#taskList{
+    margin: 0px auto;
+    background-color: #008000;
+    color: white;
+    font-size: 19px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    padding: 10px;
+    align-items: center;
+    margin-top: 20px;
+    word-break: break-word;
+    
+    
+
+}
+#taskList ul{
+    width: 100%;
+}
+#taskList li{
+    color: white;
+    font-family: 'Aboreto', cursive;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+#taskList button{
+    width: fit-content;
+    height: fit-content;
+    color: #008000;
+    text-transform: lowercase;
+    background-color: rgb(41, 41, 41);
+    border: none;
+    font-size: 17px;
+    cursor: pointer;
+    margin: 0px 3px;
+    font-weight: bolder;
+    border-radius: 50%;
+
+    
+}
